@@ -1,0 +1,97 @@
+#html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right, white, purple, purple, blue, purple, red);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: 10px;
+    padding: 30px 0 30px 50px;
+    margin: 10px;
+}
+
+.logo{
+    padding: 0 0 10px 0;
+    width: 70px;
+}
+
+.nav_bar{
+    display: grid;
+    grid-template-columns: 0 1fr 1fr;
+}
+
+.nav_menu{
+    margin-left: 200px;
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.nav_menu_last{
+    margin-left: 300px;
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav_menu > a,
+.nav_menu_last > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav_menu_last > a:last-child{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    width: 98px;
+    margin: -15px 0 15px -15px;
+    padding: 10px 0 0 25px;
+    
+}
+
+.body_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.body_info{
+    color: white;
+    font-size: 20px;
+}
+
+.body_content > .line_dash{
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+}
+
+.body_content > h1 {
+    color: white;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.body_content > h1 > .to_blue{
+    color: blue;
+}
+
+.body_image > img{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 500px;
+    width: 550px;
+}
+
+.contacting_us > #h3{
+    color: white;
+}
